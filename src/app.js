@@ -10,6 +10,7 @@ const viewPathDir=path.join(__dirname,'../templates/views')
 
 
 const partialPath=path.join(__dirname,'../templates/partials')
+//testing git
 
 
 
