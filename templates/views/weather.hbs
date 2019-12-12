@@ -1,0 +1,42 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <title>Our Products</title>
+   
+     <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" >
+    
+
+
+    <title>I'M A PRO, HOME!</title>
+  </head>
+  <body>
+    {{>navbar}}
+    <div class="container">
+     
+        <h1> {{weather}}</h1> 
+        <form id="form_id"  class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search text-green">
+        <input id="input_id" placeholder="location" type="text" class="form-control bg-light border-0 small"  aria-label="Search" aria-describedby="basic-addon2">
+       <sp>  <button class="btn btn-primary">Search</button></sp>
+
+        </form>
+       
+         {{!-- <--  <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+            <div class="input-group">
+              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fa fa-search fa-sm"></i>
+                </button>
+              </div>
+            </div>
+          </form>        </div> --}}
+    {{>footer}}
+     <script src="/js/app.js"></script>
+     </body>
+</html>

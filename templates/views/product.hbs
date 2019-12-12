@@ -1,0 +1,29 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" >
+<link rel="stylesheet" href="css/styles.css">
+
+    <title>I'M A PRO, HOME!</title>
+  </head>
+  <body>
+      {{>header}}
+    <div class="container">
+     
+            <div >
+                <ul class="list-group">
+                {{#each products}}
+                  <h1> <li class="list-group-item">{{this.name}}-{{this.rating}}</li></h1> 
+                {{/each}}
+                </ul>
+            </div>
+    
+        </div>
+        {{>footer}}
+     </body>
+</html>
