@@ -2,7 +2,7 @@
 const express=require('express')
 const path=require('path')
 const hbs =require('hbs')
-
+const port=process.env.PORT || 2121
 const app=express()
 const staticPathDir=path.join(__dirname,'../public')
 const staticPathDirForStyles=path.join(__dirname,'bootstrap')
@@ -60,6 +60,6 @@ app.get('*',(request, response)=>{
       title:'resources not found',name:'Enang Lawrence'
   })
   })
-app.listen('2121',()=> {
+app.listen(port,()=> {
     console.log('running and Listening live on local port 2121');
 });
