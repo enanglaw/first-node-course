@@ -18,4 +18,5 @@ const forecast=( latitude,longitude, callback)=>
      }
  })
 }
-forecast(6.5244, 3.3792)
+
+module.exports=forecast
